@@ -66,7 +66,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto w-80 h-80 mt-20">
-            <Image className="rounded-full w-80 h-80 mt-20 md:h-96 md:w-96" src={main} layout="fill" objectFit="cover" />
+            <Image alt="image" className="rounded-full w-80 h-80 mt-20 md:h-96 md:w-96" src={main} layout="fill" objectFit="cover" />
           </div>
         </section>
 
@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={design} />
+              <Image alt="image" src={design} />
               <h3 className="text-lg font-medium pt-8 pb-2">Design</h3>
               <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website's impact and engage your audience effortlessly.</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -89,7 +89,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Adobe XD</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-            <Image src={code} />
+            <Image alt="image" src={code} />
               <h3 className="text-lg font-medium pt-8 pb-2">Functionality</h3>
               <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website's impact and engage your audience effortlessly.</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -98,7 +98,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Adobe XD</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={consulting} />
+              <Image alt="image" src={consulting} />
               <h3 className="text-lg font-medium pt-8 pb-2">Responsiveness</h3>
               <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website's impact and engage your audience effortlessly.</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -127,6 +127,7 @@ export default function Home() {
           <div className="relative basis-1/3 flex-1">
             <a href="https://developer020.github.io/Apple-Dupe/">
                 <Image 
+                  alt="image"
                   src={web1} 
                   className="rounded-lg object-cover" 
                   width={"100%"} 
@@ -142,6 +143,7 @@ export default function Home() {
             </div>
             <div className="relative basis-1/3 flex-1">
               <Image
+                alt="image"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -157,6 +159,7 @@ export default function Home() {
             <div className="relative basis-1/3 flex-1">
                 <a href="https://developer020.github.io/Dice-Game/">
                   <Image
+                    alt="image"
                     className="rounded-lg object-cover"
                     width={"100%"}
                     height={"100%"}
@@ -173,6 +176,7 @@ export default function Home() {
             <div className="relative basis-1/3 flex-1">
               <a href="https://developer020.github.io/Drum-Kit/">
                 <Image
+                  alt="image"
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
@@ -189,6 +193,7 @@ export default function Home() {
             <div className="relative basis-1/3 flex-1">
               <a href="https://developer020.github.io/TinDog/">
                 <Image
+                  alt="image"
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
@@ -205,6 +210,7 @@ export default function Home() {
             <div className="relative basis-1/3 flex-1">
               <a href="https://developer020.github.io/CDA/">
                 <Image
+                  alt="image"
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
