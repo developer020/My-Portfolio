@@ -119,7 +119,7 @@ export default function Home() {
             </p>
           </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Since the beginning of my journey, I've done remote work to create digital products
+            Since the beginning of my journey, I&apos;ve done remote work to create digital products
               for <span className="text-teal-600">business and institutions.</span>
             </p>
           </div>
