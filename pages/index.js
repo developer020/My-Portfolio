@@ -75,14 +75,14 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Are you ready to turn your digital dreams into vibrant realities? With my pixel-perfect precision and sprinkle of coding magic, I bring your wildest design visions to life. From dazzling animations that dance across the screen to seamless interactions that leave users spellbound. Whether you need a website that pops like a <span className=" text-teal-500">confetti explosion</span> or an interface that glows like a <span className=" text-teal-500">neon rave</span>, I&aposve got you covered. So, let&aposs embark on an electrifying journey together, where imagination meets innovation and your website becomes the <span className=" text-teal-500">technicolor supernova</span> of the digital universe!
+            Are you ready to turn your digital dreams into vibrant realities? With my pixel-perfect precision and sprinkle of coding magic, I bring your wildest design visions to life. From dazzling animations that dance across the screen to seamless interactions that leave users spellbound. Whether you need a website that pops like a <span className=" text-teal-500">confetti explosion</span> or an interface that glows like a <span className=" text-teal-500">neon rave</span>, I&rsquo;ve got you covered. So, let&rsquo;s embark on an electrifying journey together, where imagination meets innovation and your website becomes the <span className=" text-teal-500">technicolor supernova</span> of the digital universe!
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={design} />
               <h3 className="text-lg font-medium pt-8 pb-2">Design</h3>
-              <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&aposs impact and engage your audience effortlessly.</p>
+              <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&rsquo;s impact and engage your audience effortlessly.</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Canva</p>
@@ -91,20 +91,20 @@ export default function Home() {
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
             <Image alt="image" src={code} />
               <h3 className="text-lg font-medium pt-8 pb-2">Functionality</h3>
-              <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&aposs impact and engage your audience effortlessly.</p>
+              <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Canva</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
+              <p className="text-gray-800 py-1">Notion</p>
+              <p className="text-gray-800 py-1">Vim</p>
+              <p className="text-gray-800 py-1">Git</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={consulting} />
               <h3 className="text-lg font-medium pt-8 pb-2">Responsiveness</h3>
-              <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&aposs impact and engage your audience effortlessly.</p>
+              <p className="py-2">My commitment to delivering an impeccable user experience is underpinned by servers that align with cutting-edge frameworks and tools that ensure flawless integration and fluid transitions, all within a robust ecosystem of viewport and device support systems.</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Canva</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
+              <p className="text-gray-800 py-1">Chrome DevTools</p>
+              <p className="text-gray-800 py-1">Vercel</p>
+              <p className="text-gray-800 py-1">Firebase</p>
             </div>
           </div>
         </section>
@@ -119,7 +119,7 @@ export default function Home() {
             </p>
           </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Since the beginning of my journey, I&apos;ve done remote work to create digital products
+            Since the beginning of my journey, I&rsquo;ve done remote work to create digital products
               for <span className="text-teal-600">business and institutions.</span>
             </p>
           </div>
