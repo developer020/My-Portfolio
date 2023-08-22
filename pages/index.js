@@ -115,7 +115,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8text-gray-800 dark:text-gray-200">
-              Welcome to my portfolios section, a visual showcase of my creative endeavors and technical prowess. With a keen focus on staying at the forefront of the rapidly evolving digital landscape, I leverage an array of cutting-edge technologies to create exceptional user experiences.<span className="text-teal-600"> React, Bootstrap, Tailwind CSS, JavaScript ES6, Node.js, Express.js</span> etc.
+              Welcome to my projects section, a visual showcase of my creative endeavors and technical prowess. With a keen focus on staying at the forefront of the rapidly evolving digital landscape, I leverage an array of cutting-edge technologies to create exceptional user experiences.<span className="text-teal-600"> React, Bootstrap, Tailwind CSS, JavaScript ES6, Node.js, Express.js</span> etc.
             </p>
           </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -142,6 +142,7 @@ export default function Home() {
             </a>
             </div>
             <div className="relative basis-1/3 flex-1">
+            <a href="https://mountain-slopes-international-website.vercel.app/">
               <Image
                 alt="image"
                 className="rounded-lg object-cover"
@@ -152,7 +153,7 @@ export default function Home() {
               />
                   <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                     <p className="text-white text-lg font-semibold absolute">
-                      Netflix Dupe Website
+                      School Website
                     </p>
                   </div>
             </div>
