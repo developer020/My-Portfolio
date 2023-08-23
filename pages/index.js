@@ -28,7 +28,7 @@ import React, { useState } from 'react';
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [showPdf, setShowPdf] = useState(false);
-  const pdfUrl = `${process.env.PUBLIC_URL}/CS-Resume.pdf`;
+  const pdfUrl = `/CS-Resume.pdf`;
 
 
   const handleViewResumeClick = () => {
