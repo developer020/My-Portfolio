@@ -95,11 +95,11 @@ export default function Home() {
             <a href="mailto:zeemohamudali@gmail.com">
               <HiMail />
             </a>
+            </>
           </div>
           <div className="relative mx-auto w-80 h-80 mt-20">
             <Image alt="image" className="rounded-full w-80 h-80 mt-20 md:h-96 md:w-96" src={main} layout="fill" objectFit="cover" />
-          </>
-                </div>
+          </div>
         </section>
 
         {/* SECTION 2 */}
