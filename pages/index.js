@@ -22,30 +22,16 @@ import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
 // import simon from '../public/simon-ai.jpeg';
 
-// import React from 'react';
-// import React, { useState } from 'react';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  const [showPdf, setShowPdf] = useState(false);
-  const pdfUrl = '/CS-Resume.pdf';
+  // const [showPdf, setShowPdf] = useState(false);
+  // const pdfUrl = '/CS-Resume.pdf';
 
-  const handleViewResumeClick = () => {
-    setShowPdf(true);
-    };
+  // const handleViewResumeClick = () => {
+  //   setShowPdf(true);
+  //   };
 
-//   return (
-//     <div className="flex justify-center items-center h-screen">
-//       <iframe
-//         src={pdfUrl}
-//         width="800"
-//         height="600"
-//         frameBorder="0"
-//         title="PDF Viewer"
-//       />
-//     </div>
-//   );
-// };
 
 // Resume PDF Code
 
@@ -71,7 +57,7 @@ export default function Home() {
             />
             <a 
               // Resume PDF Code
-              onClick={handleViewResumeClick}
+              // onClick={handleViewResumeClick}
               // Resume PDF Code
               className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0"
               href="/CS-Resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -80,17 +66,17 @@ export default function Home() {
         </div>
     </nav>
                       // Resume PDF Code
-            {showPdf && (
-        <div className="flex justify-center items-center h-screen">
-          <iframe
-            src={pdfUrl}
-            width="800"
-            height="600"
-            frameBorder="0"
-            title="PDF Viewer"
-          />
-        </div>
-      )}
+      //       {showPdf && (
+      //   <div className="flex justify-center items-center h-screen">
+      //     <iframe
+      //       src={pdfUrl}
+      //       width="800"
+      //       height="600"
+      //       frameBorder="0"
+      //       title="PDF Viewer"
+      //     />
+      //   </div>
+      // )}
                     // Resume PDF Code
 
           <div className="text-center p-10">
