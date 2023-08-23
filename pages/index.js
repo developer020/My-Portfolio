@@ -44,7 +44,7 @@ export default function Home() {
               onClick={() => setDarkMode(!darkMode)}
               className={`cursor-pointer text-2xl ${darkMode ? 'text-white' : 'text-gray-800'}`}
             />
-            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0" href="/CS-Resume.pdf" target="_blank" rel="noopener noreferrer>
+            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0" href="/CS-Resume.pdf">
               View Resume
             </a>
         </div>
