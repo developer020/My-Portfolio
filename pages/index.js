@@ -25,36 +25,33 @@ import web6 from '../public/web6.png';
 import React from 'react';
 import React, { useState } from 'react';
 
-// Resume PDF Code
-const PdfViewer = () => {
-  // const pdfUrl = './public/CS-Resume'; // Replace with the actual path
-    const [showPdf, setShowPdf] = useState(false);
+export default function Home() {
+  const [darkMode, setDarkMode] = useState(false);
+  const [showPdf, setShowPdf] = useState(false);
+  const pdfUrl = `${process.env.PUBLIC_URL}/CS-Resume.pdf`;
 
-    const pdfUrl = `${process.env.PUBLIC_URL}/CS-Resume.pdf`;
 
   const handleViewResumeClick = () => {
     setShowPdf(true);
     };
 
-  return (
-    <div className="flex justify-center items-center h-screen">
-      <iframe
-        src={pdfUrl}
-        width="800"
-        height="600"
-        frameBorder="0"
-        title="PDF Viewer"
-      />
-    </div>
-  );
-};
+//   return (
+//     <div className="flex justify-center items-center h-screen">
+//       <iframe
+//         src={pdfUrl}
+//         width="800"
+//         height="600"
+//         frameBorder="0"
+//         title="PDF Viewer"
+//       />
+//     </div>
+//   );
+// };
 
-export default PdfViewer;
 // Resume PDF Code
 
 
-export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -77,11 +74,25 @@ export default function Home() {
               // Resume PDF Code
               onClick={handleViewResumeClick}
               // Resume PDF Code
-              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0" href="#">
+              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0"
+              href="#">
               View Resume
             </a>
         </div>
     </nav>
+                      // Resume PDF Code
+            {showPdf && (
+        <div className="flex justify-center items-center h-screen">
+          <iframe
+            src={pdfUrl}
+            width="800"
+            height="600"
+            frameBorder="0"
+            title="PDF Viewer"
+          />
+        </div>
+      )}
+                    // Resume PDF Code
 
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:teal-400">Zamzam Ali</h2>
@@ -266,3 +277,4 @@ export default function Home() {
     </div>
   );
 }
+export default PdfViewer;
