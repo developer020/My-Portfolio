@@ -23,7 +23,7 @@ import web6 from '../public/web6.png';
 // import simon from '../public/simon-ai.jpeg';
 
 // import React from 'react';
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
