@@ -23,20 +23,9 @@ import web6 from '../public/web6.png';
 // import simon from '../public/simon-ai.jpeg';
 
 
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  // const [showPdf, setShowPdf] = useState(false);
-  // const pdfUrl = '/CS-Resume.pdf';
-
-  // const handleViewResumeClick = () => {
-  //   setShowPdf(true);
-  //   };
-
-
-// Resume PDF Code
-
-
-
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -55,29 +44,11 @@ export default function Home() {
               onClick={() => setDarkMode(!darkMode)}
               className={`cursor-pointer text-2xl ${darkMode ? 'text-white' : 'text-gray-800'}`}
             />
-            <a 
-              // Resume PDF Code
-              // onClick={handleViewResumeClick}
-              // Resume PDF Code
-              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0"
-              href="/CS-Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0" href="#">
               View Resume
             </a>
         </div>
     </nav>
-                      // Resume PDF Code
-      //       {showPdf && (
-      //   <div className="flex justify-center items-center h-screen">
-      //     <iframe
-      //       src={pdfUrl}
-      //       width="800"
-      //       height="600"
-      //       frameBorder="0"
-      //       title="PDF Viewer"
-      //     />
-      //   </div>
-      // )}
-                    // Resume PDF Code
 
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:teal-400">Zamzam Ali</h2>
@@ -85,8 +56,7 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">Software Engineer, currently specializing in frontend. I have a well rounded understanding of Computer Science and a passion for innovation. Welcome to my world! Lets create something special.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <>
-                <a href="https://www.linkedin.com/in/zamzam-ali/">
+            <a href="https://www.linkedin.com/in/zamzam-ali/">
               <AiFillLinkedin />
             </a>
             <a href="https://github.com/developer020">
@@ -95,7 +65,6 @@ export default function Home() {
             <a href="mailto:zeemohamudali@gmail.com">
               <HiMail />
             </a>
-            </>
           </div>
           <div className="relative mx-auto w-80 h-80 mt-20">
             <Image alt="image" className="rounded-full w-80 h-80 mt-20 md:h-96 md:w-96" src={main} layout="fill" objectFit="cover" />
@@ -264,4 +233,3 @@ export default function Home() {
     </div>
   );
 }
-// export default PdfViewer;
