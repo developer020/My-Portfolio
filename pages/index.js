@@ -85,7 +85,8 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">Software Engineer, currently specializing in frontend. I have a well rounded understanding of Computer Science and a passion for innovation. Welcome to my world! Lets create something special.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://www.linkedin.com/in/zamzam-ali/">
+            <>
+                <a href="https://www.linkedin.com/in/zamzam-ali/">
               <AiFillLinkedin />
             </a>
             <a href="https://github.com/developer020">
@@ -97,7 +98,8 @@ export default function Home() {
           </div>
           <div className="relative mx-auto w-80 h-80 mt-20">
             <Image alt="image" className="rounded-full w-80 h-80 mt-20 md:h-96 md:w-96" src={main} layout="fill" objectFit="cover" />
-          </div>
+          </>
+                </div>
         </section>
 
         {/* SECTION 2 */}
