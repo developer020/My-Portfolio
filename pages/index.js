@@ -37,18 +37,18 @@ export default function Home() {
       </Head>
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className=" min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark: text-white">
-            <h1 className="text-xl font-burtons">MyPortfolio</h1>
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}   className={`cursor-pointer text-2xl ${darkMode ? 'text-white' : 'text-gray-800'}`}
-/>
-                </li>
-              <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 tex-white px-4 py-2 rounded-md ml-8" href="#">View Resume</a>
-                </li>
-            </ul>
-          </nav>
+    <nav className="py-10 mb-12 flex flex-col items-center md:flex-row md:justify-between dark:text-white">
+          <h1 className="text-xl font-burtons mb-2 md:mb-0">MyPortfolio</h1>
+        <div className="flex flex-col items-center md:flex-row">
+            <BsFillMoonStarsFill
+              onClick={() => setDarkMode(!darkMode)}
+              className={`cursor-pointer text-2xl ${darkMode ? 'text-white' : 'text-gray-800'}`}
+            />
+            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0" href="#">
+              View Resume
+            </a>
+        </div>
+    </nav>
 
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:teal-400">Zamzam Ali</h2>
