@@ -22,6 +22,35 @@ import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
 // import simon from '../public/simon-ai.jpeg';
 
+import React from 'react';
+import React, { useState } from 'react';
+
+// Resume PDF Code
+const PdfViewer = () => {
+  // const pdfUrl = './public/CS-Resume'; // Replace with the actual path
+    const [showPdf, setShowPdf] = useState(false);
+
+    const pdfUrl = `${process.env.PUBLIC_URL}/CS-Resume.pdf`;
+
+  const handleViewResumeClick = () => {
+    setShowPdf(true);
+    };
+
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <iframe
+        src={pdfUrl}
+        width="800"
+        height="600"
+        frameBorder="0"
+        title="PDF Viewer"
+      />
+    </div>
+  );
+};
+
+export default PdfViewer;
+// Resume PDF Code
 
 
 export default function Home() {
@@ -44,7 +73,11 @@ export default function Home() {
               onClick={() => setDarkMode(!darkMode)}
               className={`cursor-pointer text-2xl ${darkMode ? 'text-white' : 'text-gray-800'}`}
             />
-            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0" href="#">
+            <a 
+              // Resume PDF Code
+              onClick={handleViewResumeClick}
+              // Resume PDF Code
+              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md md:ml-8 mt-2 md:mt-0" href="#">
               View Resume
             </a>
         </div>
