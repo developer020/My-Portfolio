@@ -143,7 +143,7 @@ export default function Home() {
                 />
                   <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                     <p className="text-white text-lg font-semibold absolute">
-                      Pharmaceutical Company Website
+                      Lanesa Pharma
                     </p>
                   </div>
             </a>
@@ -160,7 +160,7 @@ export default function Home() {
                   />
                       <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                         <p className="text-white text-lg font-semibold absolute">
-                          School Website
+                          Mountain Slopes Int
                         </p>
                       </div>
                 </a>
@@ -177,7 +177,7 @@ export default function Home() {
                   />
                       <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                         <p className="text-white text-lg font-semibold absolute">
-                          Dice Website
+                          Dice
                         </p>
                       </div>
                 </a>
@@ -194,7 +194,7 @@ export default function Home() {
                 />
                     <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                       <p className="text-white text-lg font-semibold absolute">
-                        Drum-Kit Website
+                        Drum-Kit
                       </p>
                     </div>
               </a>
@@ -228,7 +228,7 @@ export default function Home() {
                 />
                     <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                       <p className="text-white text-lg font-semibold absolute">
-                        Design-Agency Website
+                        Design-Agency
                       </p>
                     </div>
               </a>
