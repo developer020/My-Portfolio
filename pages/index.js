@@ -160,7 +160,7 @@ export default function Home() {
                   />
                       <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                         <p className="text-white text-lg font-semibold absolute">
-                          Mountain Slopes Int
+                          Mountain Slopes Intl.
                         </p>
                       </div>
                 </a>
