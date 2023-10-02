@@ -126,7 +126,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="relative basis-1/3 flex-1">
-            <a href="https://developer020.github.io/Apple-Dupe/">
+            <a href="https://lanesapharma.com/">
                 <Image 
                   alt="image"
                   src={web1} 
@@ -137,7 +137,7 @@ export default function Home() {
                 />
                   <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                     <p className="text-white text-lg font-semibold absolute">
-                      Apple Dupe Website
+                      Pharmaceutical Company Website
                     </p>
                   </div>
             </a>
