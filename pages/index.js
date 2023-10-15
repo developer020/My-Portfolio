@@ -84,7 +84,7 @@ export default function Home() {
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={design} />
               <h3 className="text-lg font-medium pt-8 pb-2">Design</h3>
-              <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&rsquo;s impact and engage your audience effortlessly.</p>
+              // <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&rsquo;s impact and engage your audience effortlessly.</p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Canva</p>
@@ -93,7 +93,7 @@ export default function Home() {
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
             <Image alt="image" src={code} />
               <h3 className="text-lg font-medium pt-8 pb-2">Functionality</h3>
-              <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p>
+              // <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p>
               <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
               <p className="text-gray-800 py-1">Notion</p>
               <p className="text-gray-800 py-1">Vim</p>
@@ -102,7 +102,7 @@ export default function Home() {
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={consulting} />
               <h3 className="text-lg font-medium pt-8 pb-2">Responsiveness</h3>
-              <p className="py-2">My commitment to delivering an impeccable user experience is underpinned by servers that align with cutting-edge frameworks and tools that ensure flawless integration and fluid transitions, all within a robust ecosystem of viewport and device support systems.</p>
+              // <p className="py-2">My commitment to delivering an impeccable user experience is underpinned by servers that align with cutting-edge frameworks and tools that ensure flawless integration and fluid transitions, all within a robust ecosystem of viewport and device support systems.</p>
               <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
               <p className="text-gray-800 py-1">Docker</p>
               <p className="text-gray-800 py-1">Vercel</p>
