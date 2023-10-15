@@ -120,7 +120,7 @@ export default function Home() {
           <div className="lg:flex gap-10">
           
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={react} />
+                  <Image alt="image" src="/react.png" />
                   <h4 className="py-4 text-teal-600">React</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
