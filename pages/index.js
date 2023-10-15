@@ -80,7 +80,7 @@ export default function Home() {
             Are you ready to turn your digital dreams into vibrant realities? With my pixel-perfect precision and sprinkle of coding magic, I bring your wildest design visions to life. From dazzling animations that dance across the screen to seamless interactions that leave users spellbound. Whether you need a website that pops like a <span className=" text-teal-500">confetti explosion</span> or an interface that glows like a <span className=" text-teal-500">neon rave</span>, I&rsquo;ve got you covered. So, let&rsquo;s embark on an electrifying journey together, where imagination meets innovation and your website becomes the <span className=" text-teal-500">technicolor supernova</span> of the digital universe!
             </p>
           </div>
-          <div className="lg:flex gap-10">
+          <div className="lg:flex items-center justify-center gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={design} />
               <h3 className="text-lg font-medium pt-8 pb-2">Design</h3>
