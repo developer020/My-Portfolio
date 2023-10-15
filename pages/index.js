@@ -121,20 +121,20 @@ export default function Home() {
           
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                   <Image alt="image" src={react} />
-                  <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                  <h4 className="py-4 text-teal-600">React</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                 <Image alt="image" src={javascript} />
-                  <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
+                  <h4 className="py-4 text-teal-600">Javascript</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                   <Image alt="image" src={typescript} />
-                  <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
+                  <h4 className="py-4 text-teal-600">Typescript</h4>
                 </div>
     
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                   <Image alt="image" src={php} />
-                  <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                  <h4 className="py-4 text-teal-600">PHP</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                 <Image alt="image" src={bootstrap} />
