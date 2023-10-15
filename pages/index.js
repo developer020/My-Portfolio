@@ -110,6 +110,57 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+{/* SECTION 2 */}
+        <section>
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white">Technologies I Use</h3>
+            
+          </div>
+          <div className="lg:flex gap-10">
+          
+                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <Image alt="image" src={design} />
+                  <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                </div>
+                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <Image alt="image" src={code} />
+                  <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
+                </div>
+                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <Image alt="image" src={consulting} />
+                  <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
+                </div>
+    
+                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <Image alt="image" src={design} />
+                  <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                </div>
+                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <Image alt="image" src={code} />
+                  <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
+                </div>
+                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <Image alt="image" src={consulting} />
+                  <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
+                </div>
+    
+    
+              <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <Image alt="image" src={design} />
+                  <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                </div>
+                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <Image alt="image" src={code} />
+                  <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
+                </div>
+                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <Image alt="image" src={consulting} />
+                  <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
+                </div>
+          
+          </div>
+        </section>
         
         {/* SECTION 3 */}
         <section className="py-10">
