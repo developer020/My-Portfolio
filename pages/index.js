@@ -120,42 +120,42 @@ export default function Home() {
           <div className="lg:flex gap-10">
           
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={icons8-react} />
+                  <Image alt="image" src={react} />
                   <h4 className="py-4 text-teal-600">Design tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <Image alt="image" src={icons8-javascript} />
+                <Image alt="image" src={javascript} />
                   <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={icons8-typescript} />
+                  <Image alt="image" src={typescript} />
                   <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
                 </div>
     
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={icons8-php} />
+                  <Image alt="image" src={php} />
                   <h4 className="py-4 text-teal-600">Design tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <Image alt="image" src={icons8-bootstrap} />
+                <Image alt="image" src={bootstrap} />
                   <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={icons8-tailwind-css} />
+                  <Image alt="image" src={tailwindcss} />
                   <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
                 </div>
     
     
               <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={icons8-sql} />
+                  <Image alt="image" src={sql} />
                   <h4 className="py-4 text-teal-600">Design tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <Image alt="image" src={icons8-firebase} />
+                <Image alt="image" src={firebase} />
                   <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={icons8-canva} />
+                  <Image alt="image" src={canva} />
                   <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
                 </div>
           
