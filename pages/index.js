@@ -80,7 +80,7 @@ export default function Home() {
         {/* SECTION 2 */}
         <section>
           <div>
-            <a target="_blank" href="https://icons8.com/icon/ARlOSb6aYtFw/sheets">tech stack</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
+            <Image alt="image" src={tech-stack-48}> <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             Are you ready to turn your digital dreams into vibrant realities? With my pixel-perfect precision and sprinkle of coding magic, I bring your wildest design visions to life. From dazzling animations that dance across the screen to seamless interactions that leave users spellbound. Whether you need a website that pops like a <span className=" text-teal-500">confetti explosion</span> or an interface that glows like a <span className=" text-teal-500">neon rave</span>, I&rsquo;ve got you covered. So, let&rsquo;s embark on an electrifying journey together, where imagination meets innovation and your website becomes the <span className=" text-teal-500">technicolor supernova</span> of the digital universe!
             </p>
