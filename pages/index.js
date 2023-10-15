@@ -124,38 +124,38 @@ export default function Home() {
                   <h4 className="py-4 text-teal-600">React</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <Image alt="image" src={javascript} />
+                <Image alt="image" src="/javascript.png" />
                   <h4 className="py-4 text-teal-600">Javascript</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={typescript} />
+                  <Image alt="image" src="/typescript.png" />
                   <h4 className="py-4 text-teal-600">Typescript</h4>
                 </div>
     
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={php} />
+                  <Image alt="image" src="/php.png" />
                   <h4 className="py-4 text-teal-600">PHP</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <Image alt="image" src={bootstrap} />
+                <Image alt="image" src="/bootstrap.png" />
                   <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={tailwindcss} />
+                  <Image alt="image" src="/tailwindcss.png" />
                   <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
                 </div>
     
     
               <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={sql} />
+                  <Image alt="image" src="/sql.png" />
                   <h4 className="py-4 text-teal-600">Design tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <Image alt="image" src={firebase} />
+                <Image alt="image" src="firebase.png" />
                   <h4 className="py-4 text-teal-600">Functionality tools I use</h4>
                 </div>
                 <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                  <Image alt="image" src={canva} />
+                  <Image alt="image" src="canva.png" />
                   <h4 className="py-4 text-teal-600">Responsiveness tools I use</h4>
                 </div>
           
