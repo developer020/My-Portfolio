@@ -54,7 +54,7 @@ export default function Home() {
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:teal-400">Zamzam Ali</h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Frontend Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">I am a Software Engineer, currently specializing in frontend. I have a well rounded understanding of Computer Science and a passion for innovation. Welcome to my world! Lets create something special.</p>
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">I am a Software Engineer, currently working in Frontend Development. I have a well rounded understanding of Computer Science and a passion for innovation. Welcome to my world! Lets create something special.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://www.linkedin.com/in/zamzam-ali/">
@@ -77,7 +77,8 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Are you ready to turn your digital dreams into vibrant realities? With my pixel-perfect precision and sprinkle of coding magic, I bring your wildest design visions to life. From dazzling animations that dance across the screen to seamless interactions that leave users spellbound. Whether you need a website that pops like a <span className=" text-teal-500">confetti explosion</span> or an interface that glows like a <span className=" text-teal-500">neon rave</span>, I&rsquo;ve got you covered. So, let&rsquo;s embark on an electrifying journey together, where imagination meets innovation and your website becomes the <span className=" text-teal-500">technicolor supernova</span> of the digital universe!
+            Are you ready to turn your digital dreams into vibrant realities? With my pixel-perfect precision and modern technologies, I bring your wildest design visions to life.</p> 
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> My expert languages include <span className=" text-teal-500">HTML, CSS and Javascript.</span> I am proficient in <span className=" text-teal-500">Node.js</span>, <span className=" text-teal-500">Express.js</span> and most specifically <span className=" text-teal-500">React.js</span>. In CSS I work with frameworks such as <span className=" text-teal-500">Bootstrap</span> and <span className=" text-teal-500">Tailwind CSS</span>.
             </p>
           </div>
           <div className="lg:flex items-center justify-center gap-10">
@@ -95,7 +96,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">Functionality</h3>
               {/* <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p> */}
               <h4 className="py-4 text-teal-600">Tools I use</h4>
-              <p className="text-gray-800 py-1">Notion</p>
+              <p className="text-gray-800 py-1">Babel</p>
               <p className="text-gray-800 py-1">Vim</p>
               <p className="text-gray-800 py-1">Git</p>
             </div>
