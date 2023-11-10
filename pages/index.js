@@ -118,11 +118,10 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8text-gray-800 dark:text-gray-200">
-              Welcome to my projects section, a visual showcase of my creative endeavors and technical prowess. With a keen focus on staying at the forefront of the rapidly evolving digital landscape, I leverage an array of cutting-edge technologies to create exceptional user experiences.<span className="text-teal-600"> React, Bootstrap, Tailwind CSS, JavaScript ES6, Node.js, Express.js</span>.
-            </p>
+              Welcome to my projects section, a visual showcase of my creative endeavors and technical prowess.
           </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Since the beginning of my journey, I&rsquo;ve done remote work to create digital products
+            My personal projects and digital products I&rsquo;ve created for companies.
               for <span className="text-teal-600">business and institutions.</span>
             </p>
           </div>
