@@ -75,10 +75,10 @@ export default function Home() {
         {/* SECTION 2 */}
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white">Expertise</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Are you ready to turn your digital dreams into vibrant realities? With my pixel-perfect precision and modern technologies, I bring your wildest design visions to life.</p> 
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> My expert languages include <span className=" text-teal-500">HTML, CSS and Javascript.</span> I am proficient in <span className=" text-teal-500">Node.js</span>, <span className=" text-teal-500">Express.js</span> and most specifically <span className=" text-teal-500">React.js</span>. In CSS, I work with frameworks such as <span className=" text-teal-500">Bootstrap</span> and <span className=" text-teal-500">Tailwind CSS</span>.
+            Where software solutions meets business problems.</p> 
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" text-teal-500">Research and Analysis, Technical Documentation, Client Relationship Management, Problem Solving.</span>.
             </p>
           </div>
           <div className="lg:flex items-center justify-center gap-10">
