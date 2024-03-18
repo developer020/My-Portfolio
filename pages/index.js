@@ -118,12 +118,12 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8text-gray-800 dark:text-gray-200">
-              Welcome to my projects section, a visual showcase of my creative endeavors and technical prowess.
+              Welcome to my projects section, a visual showcase of my creative endeavors.
           </p>
           </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            My personal projects and digital products I&rsquo;ve created for companies.
-              for <span className="text-teal-600">business and institutions.</span>
+            Personal projects and digital products I&rsquo;ve created for
+              <span className="text-teal-600"> companies.</span>
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
