@@ -78,7 +78,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Expertise</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             Where software solutions meets business problems.</p> 
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" text-teal-500">Research and Analysis, Technical Documentation, Client Relationship Management, Problem Solving.</span>.
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" py-4 text-teal-600">Research and Analysis</span>, <span className=" py-4 text-teal-600">Technical Documentation</span>, <span className=" py-4 text-teal-600">Client Relationship</span> <span className=" py-4 text-teal-600">Management</span>, and <span className=" py-4 text-teal-600">Problem Solving</span>.
             </p>
           </div>
           <div className="lg:flex items-center justify-center gap-10">
