@@ -122,8 +122,7 @@ export default function Home() {
           </p>
           </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Personal projects and digital products I&rsquo;ve created for
-              <span className="text-teal-600"> companies.</span>
+            <span className="text-teal-600">Personal projects</span> and <span className="text-teal-600">digital products</span> I&rsquo;ve created for companies.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
