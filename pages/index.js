@@ -228,8 +228,8 @@ export default function Home() {
             //           </p>
             //         </div>
             //   </a>
-            // </div>
-          // </div>
+            </div>
+          </div>
         </section>
       </main>
     </div>
