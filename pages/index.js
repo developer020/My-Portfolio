@@ -132,7 +132,7 @@ export default function Home() {
                       <Image 
                         alt="image"
                         src={web1} 
-                        className="w-1/2 lg:w-1/4 rounded-lg object-cover" 
+                        className="w-1/4 lg:w-1/6 rounded-lg object-cover" 
                         width={"100%"} 
                         height={"100%"} 
                         layout="responsive"
