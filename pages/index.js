@@ -117,18 +117,18 @@ export default function Home() {
         <section className="py-10">
           <div>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white">RESUME</h3>
             <p className="text-md py-2 leading-8text-gray-800 dark:text-gray-200">
-              Welcome to my projects section, a visual showcase of my creative endeavors.
+              In case you missed it at the top of the page, here&rsquo;s my resume!
           </p>
-          </div>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            <span className="text-teal-600">Personal projects</span> and <span className="text-teal-600">digital products</span> I&rsquo;ve created for companies.
-            </p>
-          </div>
+          // </div>
+          //   <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+          //   <span className="text-teal-600">Personal projects</span> and <span className="text-teal-600">digital products</span> I&rsquo;ve created for companies.
+          //   </p>
+          // </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="relative basis-1/3 flex-1">
-            <a href="https://ayresoriginals.com/">
+            <a href="/CS-Resume.pdf">
                 <Image 
                   alt="image"
                   src={web1} 
@@ -139,96 +139,96 @@ export default function Home() {
                 />
                   <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
                     <p className="text-white text-lg font-semibold absolute">
-                      Ayres Originals
+                      career brag sheet
                     </p>
                   </div>
             </a>
             </div>
-            <div className="relative basis-1/3 flex-1">
-              <a href="https://lanesapharma.com/">
-                  <Image
-                    alt="image"
-                    className="rounded-lg object-cover"
-                    width={"100%"}
-                    height={"100%"}
-                    layout="responsive"
-                    src={web2}
-                  />
-                      <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-                        <p className="text-white text-lg font-semibold absolute">
-                          Lanesa Pharma
-                        </p>
-                      </div>
-                </a>
-            </div>
-            <div className="relative basis-1/3 flex-1">
-                <a href="https://mountain-slopes-international-website.vercel.app/">
-                  <Image
-                    alt="image"
-                    className="rounded-lg object-cover"
-                    width={"100%"}
-                    height={"100%"}
-                    layout="responsive"
-                    src={web3}
-                  />
-                      <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-                        <p className="text-white text-lg font-semibold absolute">
-                          Mountain Slopes Intl.
-                        </p>
-                      </div>
-                </a>
-            </div>
-            <div className="relative basis-1/3 flex-1">
-              <a href="https://developer020.github.io/TinDog/">
-                <Image
-                  alt="image"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web4}
-                />
-                    <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-                      <p className="text-white text-lg font-semibold absolute">
-                        Tindog(Tinder for dogs)
-                      </p>
-                    </div>
-              </a>
-            </div>
-            <div className="relative basis-1/3 flex-1">
-              <a href="https://developer020.github.io/Dice-Game/">
-                <Image
-                  alt="image"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web5}
-                />
-                    <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-                      <p className="text-white text-lg font-semibold absolute">
-                        Dice
-                      </p>
-                    </div>
-              </a>
-            </div>
-            <div className="relative basis-1/3 flex-1">
-              <a href="https://developer020.github.io/Drum-Kit/">
-                <Image
-                  alt="image"
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web6}
-                />
-                    <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-                      <p className="text-white text-lg font-semibold absolute">
-                        Drum-Kit
-                      </p>
-                    </div>
-              </a>
-            </div>
+            // <div className="relative basis-1/3 flex-1">
+            //   <a href="https://lanesapharma.com/">
+            //       <Image
+            //         alt="image"
+            //         className="rounded-lg object-cover"
+            //         width={"100%"}
+            //         height={"100%"}
+            //         layout="responsive"
+            //         src={web2}
+            //       />
+            //           <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+            //             <p className="text-white text-lg font-semibold absolute">
+            //               Lanesa Pharma
+            //             </p>
+            //           </div>
+            //     </a>
+            // </div>
+            // <div className="relative basis-1/3 flex-1">
+            //     <a href="https://mountain-slopes-international-website.vercel.app/">
+            //       <Image
+            //         alt="image"
+            //         className="rounded-lg object-cover"
+            //         width={"100%"}
+            //         height={"100%"}
+            //         layout="responsive"
+            //         src={web3}
+            //       />
+            //           <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+            //             <p className="text-white text-lg font-semibold absolute">
+            //               Mountain Slopes Intl.
+            //             </p>
+            //           </div>
+            //     </a>
+            // </div>
+            // <div className="relative basis-1/3 flex-1">
+            //   <a href="https://developer020.github.io/TinDog/">
+            //     <Image
+            //       alt="image"
+            //       className="rounded-lg object-cover"
+            //       width={"100%"}
+            //       height={"100%"}
+            //       layout="responsive"
+            //       src={web4}
+            //     />
+            //         <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+            //           <p className="text-white text-lg font-semibold absolute">
+            //             Tindog(Tinder for dogs)
+            //           </p>
+            //         </div>
+            //   </a>
+            // </div>
+            // <div className="relative basis-1/3 flex-1">
+            //   <a href="https://developer020.github.io/Dice-Game/">
+            //     <Image
+            //       alt="image"
+            //       className="rounded-lg object-cover"
+            //       width={"100%"}
+            //       height={"100%"}
+            //       layout="responsive"
+            //       src={web5}
+            //     />
+            //         <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+            //           <p className="text-white text-lg font-semibold absolute">
+            //             Dice
+            //           </p>
+            //         </div>
+            //   </a>
+            // </div>
+            // <div className="relative basis-1/3 flex-1">
+            //   <a href="https://developer020.github.io/Drum-Kit/">
+            //     <Image
+            //       alt="image"
+            //       className="rounded-lg object-cover"
+            //       width={"100%"}
+            //       height={"100%"}
+            //       layout="responsive"
+            //       src={web6}
+            //     />
+            //         <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+            //           <p className="text-white text-lg font-semibold absolute">
+            //             Drum-Kit
+            //           </p>
+            //         </div>
+            //   </a>
+            // </div>
           </div>
         </section>
       </main>
