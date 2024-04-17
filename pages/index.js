@@ -9,7 +9,7 @@ import main from '../public/main-image.jpg';
 import code from '../public/code.png';
 import design from '../public/design.png';
 import consulting from '../public/consulting.png';
-import web1 from '../public/web1.png';
+import web1 from '../public/web1.jpg';
 // import apple from '../public/Apple-ai.jpg';
 import web2 from '../public/web2.png';
 // import cdi from '../public/CDI-ai.jpeg';
