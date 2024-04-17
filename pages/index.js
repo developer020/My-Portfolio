@@ -117,7 +117,7 @@ export default function Home() {
         <section className="py-10">
           <div>
             <div>
-              <h3 className="text-3xl py-1 dark:text-white">RESUME</h3>
+              <h3 className="text-4xl py-1 text-teal-600 font-medium md:text-4xl dark:teal-400">RESUME</h3>
               <p className="text-md py-2 leading-8text-gray-800 dark:text-gray-200">
                 In case you missed it at the top of the page, here&rsquo;s my resume!
               </p>
