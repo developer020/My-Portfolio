@@ -77,10 +77,10 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Expertise</h3>
-            // <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            // Where software solutions meets business problems.</p> 
-            // <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" py-4 text-teal-600">Research and Analysis</span>, <span className=" py-4 text-teal-600">Technical Documentation</span>, <span className=" py-4 text-teal-600">Relationship Management</span> <span className=" py-4 text-teal-600">Management</span>, and <span className=" py-4 text-teal-600"></span>.
-            // </p>
+            {/*<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            Where software solutions meets business problems.</p> 
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" py-4 text-teal-600">Research and Analysis</span>, <span className=" py-4 text-teal-600">Technical Documentation</span>, <span className=" py-4 text-teal-600">Relationship Management</span> <span className=" py-4 text-teal-600">Management</span>, and <span className=" py-4 text-teal-600"></span>.
+            </p>*/}
           </div>
           <div className="lg:flex items-center justify-center gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
@@ -122,9 +122,9 @@ export default function Home() {
                 In case you missed it at the top of the page, here&rsquo;s my resume!
               </p>
             </div>
-          //   <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          //   <span className="text-teal-600">Personal projects</span> and <span className="text-teal-600">digital products</span> I&rsquo;ve created for companies.
-          //   </p>
+           {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <span className="text-teal-600">Personal projects</span> and <span className="text-teal-600">digital products</span> I&rsquo;ve created for companies.
+            </p>*/}
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="relative basis-1/3 flex-1">
@@ -144,7 +144,7 @@ export default function Home() {
                         </div>
                     </a>
                 </div>
-              <div className="relative basis-1/3 flex-1">
+               {/*<div className="relative basis-1/3 flex-1">
                 <a href="https://lanesapharma.com/">
                     <Image
                       alt="image"
@@ -228,7 +228,7 @@ export default function Home() {
                         </p>
                       </div>
                 </a>
-              </div>
+              </div>*/}
           </div>
         </section>
       </main>
