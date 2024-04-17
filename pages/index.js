@@ -77,35 +77,35 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Expertise</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Where software solutions meets business problems.</p> 
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" py-4 text-teal-600">Research and Analysis</span>, <span className=" py-4 text-teal-600">Technical Documentation</span>, <span className=" py-4 text-teal-600">Client Relationship</span> <span className=" py-4 text-teal-600">Management</span>, and <span className=" py-4 text-teal-600">Problem Solving</span>.
-            </p>
+            // <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            // Where software solutions meets business problems.</p> 
+            // <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" py-4 text-teal-600">Research and Analysis</span>, <span className=" py-4 text-teal-600">Technical Documentation</span>, <span className=" py-4 text-teal-600">Relationship Management</span> <span className=" py-4 text-teal-600">Management</span>, and <span className=" py-4 text-teal-600"></span>.
+            // </p>
           </div>
           <div className="lg:flex items-center justify-center gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={design} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Design</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Data</h3>
               {/* <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&rsquo;s impact and engage your audience effortlessly.</p> */}
-              <h4 className="py-4 text-teal-600">Tools I use</h4>
+              <h4 className="py-4 text-teal-600">Research and Analysis</h4>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Canva</p>
               <p className="text-gray-800 py-1">Adobe XD</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
             <Image alt="image" src={code} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Functionality</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Software</h3>
               {/* <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p> */}
-              <h4 className="py-4 text-teal-600">Tools I use</h4>
+              <h4 className="py-4 text-teal-600">Problem Solving</h4>
               <p className="text-gray-800 py-1">Babel</p>
               <p className="text-gray-800 py-1">Vim</p>
               <p className="text-gray-800 py-1">Git</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={consulting} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Responsiveness</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Business</h3>
               {/* <p className="py-2">My commitment to delivering an impeccable user experience is underpinned by servers that align with cutting-edge frameworks and tools that ensure flawless integration and fluid transitions, all within a robust ecosystem of viewport and device support systems.</p> */}
-              <h4 className="py-4 text-teal-600">Tools I use</h4>
+              <h4 className="py-4 text-teal-600">Relationship Management</h4>
               <p className="text-gray-800 py-1">Docker</p>
               <p className="text-gray-800 py-1">Vercel</p>
               <p className="text-gray-800 py-1">Firebase</p>
