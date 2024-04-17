@@ -144,92 +144,92 @@ export default function Home() {
                         </div>
                     </a>
                 </div>
-              // <div className="relative basis-1/3 flex-1">
-              //   <a href="https://lanesapharma.com/">
-              //       <Image
-              //         alt="image"
-              //         className="rounded-lg object-cover"
-              //         width={"100%"}
-              //         height={"100%"}
-              //         layout="responsive"
-              //         src={web2}
-              //       />
-              //           <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-              //             <p className="text-white text-lg font-semibold absolute">
-              //               Lanesa Pharma
-              //             </p>
-              //           </div>
-              //     </a>
-              // </div>
-              // <div className="relative basis-1/3 flex-1">
-              //     <a href="https://mountain-slopes-international-website.vercel.app/">
-              //       <Image
-              //         alt="image"
-              //         className="rounded-lg object-cover"
-              //         width={"100%"}
-              //         height={"100%"}
-              //         layout="responsive"
-              //         src={web3}
-              //       />
-              //           <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-              //             <p className="text-white text-lg font-semibold absolute">
-              //               Mountain Slopes Intl.
-              //             </p>
-              //           </div>
-              //     </a>
-              // </div>
-              // <div className="relative basis-1/3 flex-1">
-              //   <a href="https://developer020.github.io/TinDog/">
-              //     <Image
-              //       alt="image"
-              //       className="rounded-lg object-cover"
-              //       width={"100%"}
-              //       height={"100%"}
-              //       layout="responsive"
-              //       src={web4}
-              //     />
-              //         <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-              //           <p className="text-white text-lg font-semibold absolute">
-              //             Tindog(Tinder for dogs)
-              //           </p>
-              //         </div>
-              //   </a>
-              // </div>
-              // <div className="relative basis-1/3 flex-1">
-              //   <a href="https://developer020.github.io/Dice-Game/">
-              //     <Image
-              //       alt="image"
-              //       className="rounded-lg object-cover"
-              //       width={"100%"}
-              //       height={"100%"}
-              //       layout="responsive"
-              //       src={web5}
-              //     />
-              //         <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-              //           <p className="text-white text-lg font-semibold absolute">
-              //             Dice
-              //           </p>
-              //         </div>
-              //   </a>
-              // </div>
-              // <div className="relative basis-1/3 flex-1">
-              //   <a href="https://developer020.github.io/Drum-Kit/">
-              //     <Image
-              //       alt="image"
-              //       className="rounded-lg object-cover"
-              //       width={"100%"}
-              //       height={"100%"}
-              //       layout="responsive"
-              //       src={web6}
-              //     />
-              //         <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
-              //           <p className="text-white text-lg font-semibold absolute">
-              //             Drum-Kit
-              //           </p>
-              //         </div>
-              //   </a>
-              // </div>
-          // </div>
+              <div className="relative basis-1/3 flex-1">
+                <a href="https://lanesapharma.com/">
+                    <Image
+                      alt="image"
+                      className="rounded-lg object-cover"
+                      width={"100%"}
+                      height={"100%"}
+                      layout="responsive"
+                      src={web2}
+                    />
+                        <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+                          <p className="text-white text-lg font-semibold absolute">
+                            Lanesa Pharma
+                          </p>
+                        </div>
+                  </a>
+              </div>
+              <div className="relative basis-1/3 flex-1">
+                  <a href="https://mountain-slopes-international-website.vercel.app/">
+                    <Image
+                      alt="image"
+                      className="rounded-lg object-cover"
+                      width={"100%"}
+                      height={"100%"}
+                      layout="responsive"
+                      src={web3}
+                    />
+                        <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+                          <p className="text-white text-lg font-semibold absolute">
+                            Mountain Slopes Intl.
+                          </p>
+                        </div>
+                  </a>
+              </div>
+              <div className="relative basis-1/3 flex-1">
+                <a href="https://developer020.github.io/TinDog/">
+                  <Image
+                    alt="image"
+                    className="rounded-lg object-cover"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                    src={web4}
+                  />
+                      <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+                        <p className="text-white text-lg font-semibold absolute">
+                          Tindog(Tinder for dogs)
+                        </p>
+                      </div>
+                </a>
+              </div>
+              <div className="relative basis-1/3 flex-1">
+                <a href="https://developer020.github.io/Dice-Game/">
+                  <Image
+                    alt="image"
+                    className="rounded-lg object-cover"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                    src={web5}
+                  />
+                      <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+                        <p className="text-white text-lg font-semibold absolute">
+                          Dice
+                        </p>
+                      </div>
+                </a>
+              </div>
+              <div className="relative basis-1/3 flex-1">
+                <a href="https://developer020.github.io/Drum-Kit/">
+                  <Image
+                    alt="image"
+                    className="rounded-lg object-cover"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                    src={web6}
+                  />
+                      <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
+                        <p className="text-white text-lg font-semibold absolute">
+                          Drum-Kit
+                        </p>
+                      </div>
+                </a>
+              </div>
+          </div>
         </section>
       </main>
     </div>
