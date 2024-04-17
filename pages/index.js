@@ -85,21 +85,21 @@ export default function Home() {
           <div className="lg:flex items-center justify-center gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={design} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Data</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Software</h3>
               {/* <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&rsquo;s impact and engage your audience effortlessly.</p> */}
-              <h4 className="py-4 text-teal-600">Research and Analysis</h4>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Canva</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
+              <h4 className="py-4 text-teal-600">Problem Solving</h4>
+              <h4 className="py-4 text-teal-600">Documentation</h4>
+              <h4 className="py-4 text-teal-600">Version Control</h4>
+              <h4 className="py-4 text-teal-600">Testing/QA (Quality Assurance)</h4>  
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
             <Image alt="image" src={code} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Software</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Data</h3>
               {/* <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p> */}
-              <h4 className="py-4 text-teal-600">Problem Solving</h4>
-              <p className="text-gray-800 py-1">Babel</p>
-              <p className="text-gray-800 py-1">Vim</p>
-              <p className="text-gray-800 py-1">Git</p>
+              <h4 className="py-4 text-teal-600">Research and Analysis</h4>
+              <h4 className="py-4 text-teal-600">Data Visualization</h4>
+              <h4 className="py-4 text-teal-600">Statistical Modeling</h4>
+              <h4 className="py-4 text-teal-600">Data Cleaning and Preprocessing</h4>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={consulting} />
