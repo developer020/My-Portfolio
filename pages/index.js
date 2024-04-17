@@ -229,7 +229,7 @@ export default function Home() {
             //         </div>
             //   </a>
             // </div>
-          </div>
+          // </div>
         </section>
       </main>
     </div>
