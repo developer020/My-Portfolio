@@ -55,7 +55,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:teal-400">Hi! I&rsquo;m Zamzam Ali</h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Product Specialist</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">I leverage data and software to make everything one click away, even cooking! Just kidding, that passion project is still in the ideation phase.</p>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">Welcome to my world!</p>
+            <p className="text-md py-3 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">Welcome to my world!</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://www.linkedin.com/in/zamzam-ali/">
