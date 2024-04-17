@@ -127,12 +127,12 @@ export default function Home() {
             </p>*/}
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-              <div className="relative basis-1/3 flex-1">
+              <div className="w-full max-w-sm relative basis-1/3 flex-1">
                   <a href="/CS-Resume.pdf">
                       <Image 
                         alt="image"
                         src={web1} 
-                        className="w-1/4 lg:w-1/6 rounded-lg object-cover" 
+                        className="rounded-lg object-cover" 
                         width={"50%"} 
                         height={"50%"} 
                         layout="responsive"
