@@ -105,10 +105,10 @@ export default function Home() {
               <Image alt="image" src={consulting} />
               <h3 className="text-lg font-medium pt-8 pb-2">Business</h3>
               {/* <p className="py-2">My commitment to delivering an impeccable user experience is underpinned by servers that align with cutting-edge frameworks and tools that ensure flawless integration and fluid transitions, all within a robust ecosystem of viewport and device support systems.</p> */}
+              <h4 className="py-4 text-teal-600">Product Quality Monitoring</h4>
+              <h4 className="py-4 text-teal-600">Growth Analysis</h4>
               <h4 className="py-4 text-teal-600">Relationship Management</h4>
-              <p className="text-gray-800 py-1">Docker</p>
-              <p className="text-gray-800 py-1">Vercel</p>
-              <p className="text-gray-800 py-1">Firebase</p>
+              <h4 className="py-4 text-teal-600">Cross-Functional Collaboration</h4>
             </div>
           </div>
         </section>
