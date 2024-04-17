@@ -133,8 +133,8 @@ export default function Home() {
                         alt="image"
                         src={web1} 
                         className="w-1/4 lg:w-1/6 rounded-lg object-cover" 
-                        width={"100%"} 
-                        height={"100%"} 
+                        width={"50%"} 
+                        height={"50%"} 
                         layout="responsive"
                       />
                         <div className="rounded-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 hover:opacity-100 transition duration-300">
