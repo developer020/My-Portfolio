@@ -126,7 +126,7 @@ export default function Home() {
             <span className="text-teal-600">Personal projects</span> and <span className="text-teal-600">digital products</span> I&rsquo;ve created for companies.
             </p>*/}
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className=" items-center justify-center h-screen flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="w-full max-w-sm relative basis-1/3 flex-1">
                   <a href="/CS-Resume.pdf">
                       <Image 
