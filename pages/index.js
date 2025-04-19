@@ -82,7 +82,8 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" py-4 text-teal-600">Research and Analysis</span>, <span className=" py-4 text-teal-600">Technical Documentation</span>, <span className=" py-4 text-teal-600">Relationship Management</span> <span className=" py-4 text-teal-600">Management</span>, and <span className=" py-4 text-teal-600"></span>.
             </p>*/}
           </div>
-              <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+          <div className="lg:flex items-center justify-center gap-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={consulting} />
               <h3 className="text-lg font-medium pt-8 pb-2">Business</h3>
               {/* <p className="py-2">My commitment to delivering an impeccable user experience is underpinned by servers that align with cutting-edge frameworks and tools that ensure flawless integration and fluid transitions, all within a robust ecosystem of viewport and device support systems.</p> */}
@@ -90,18 +91,17 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Stakeholder Management</h4>
               <h4 className="py-4 text-teal-600">Revenue Growth</h4>
               <h4 className="py-4 text-teal-600">Cross-Functional Alignment</h4>
-              </div>
-              <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image alt="image" src={code} />
+            </div>
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <Image alt="image" src={code} />
               <h3 className="text-lg font-medium pt-8 pb-2">Data</h3>
               {/* <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p> */}
               <h4 className="py-4 text-teal-600">Analytics & Business Intelligence</h4>
               <h4 className="py-4 text-teal-600">Data-Driven Decision Making</h4>
               <h4 className="py-4 text-teal-600">Machine Learning & AI</h4>
               <h4 className="py-4 text-teal-600">Data Governance</h4>
-              </div>
-              <div className="lg:flex items-center justify-center gap-10">
-              <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            </div>
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={design} />
               <h3 className="text-lg font-medium pt-8 pb-2">Software</h3>
               {/* <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&rsquo;s impact and engage your audience effortlessly.</p> */}
@@ -109,7 +109,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Scalable Systems Design</h4>
               <h4 className="py-4 text-teal-600">Full-Stack Development</h4>
               <h4 className="py-4 text-teal-600">Quality Assurance</h4>  
-              </div>
+            </div>
           </div>
         </section>
         
