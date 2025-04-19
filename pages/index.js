@@ -53,7 +53,7 @@ export default function Home() {
 
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:teal-400">Hi! I&rsquo;m Zamzam Ali</h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Product Manager</h3>
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Product & Technology Leader</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">I leverage data and software to make everything one click away, even cooking! Just kidding, that passion project is still in the ideation phase.</p>
             <p className="text-md pb-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">Welcome to my world!</p>
           </div>
@@ -82,33 +82,33 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The nurtured skills that I anchor in all my projects include technical prowess in development, and business acumen in the form of <span className=" py-4 text-teal-600">Research and Analysis</span>, <span className=" py-4 text-teal-600">Technical Documentation</span>, <span className=" py-4 text-teal-600">Relationship Management</span> <span className=" py-4 text-teal-600">Management</span>, and <span className=" py-4 text-teal-600"></span>.
             </p>*/}
           </div>
-          <div className="lg:flex items-center justify-center gap-10">
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image alt="image" src={design} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Software</h3>
-              {/* <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&rsquo;s impact and engage your audience effortlessly.</p> */}
-              <h4 className="py-4 text-teal-600">Problem Solving</h4>
-              <h4 className="py-4 text-teal-600">Documentation</h4>
-              <h4 className="py-4 text-teal-600">Version Control</h4>
-              <h4 className="py-4 text-teal-600">Testing/QA (Quality Assurance)</h4>  
-            </div>
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-            <Image alt="image" src={code} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Data</h3>
-              {/* <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p> */}
-              <h4 className="py-4 text-teal-600">Research and Analysis</h4>
-              <h4 className="py-4 text-teal-600">Data Visualization</h4>
-              <h4 className="py-4 text-teal-600">Statistical Modeling</h4>
-              <h4 className="py-4 text-teal-600">Data Cleaning and Preprocessing</h4>
-            </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={consulting} />
               <h3 className="text-lg font-medium pt-8 pb-2">Business</h3>
               {/* <p className="py-2">My commitment to delivering an impeccable user experience is underpinned by servers that align with cutting-edge frameworks and tools that ensure flawless integration and fluid transitions, all within a robust ecosystem of viewport and device support systems.</p> */}
-              <h4 className="py-4 text-teal-600">Product Quality Monitoring</h4>
-              <h4 className="py-4 text-teal-600">Growth Analysis</h4>
-              <h4 className="py-4 text-teal-600">Relationship Management</h4>
-              <h4 className="py-4 text-teal-600">Cross-Functional Collaboration</h4>
+              <h4 className="py-4 text-teal-600">Strategic Planning</h4>
+              <h4 className="py-4 text-teal-600">Stakeholder Management</h4>
+              <h4 className="py-4 text-teal-600">Revenue Growth</h4>
+              <h4 className="py-4 text-teal-600">Cross-Functional Alignment</h4>
+            </div>
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+              <Image alt="image" src={code} />
+              <h3 className="text-lg font-medium pt-8 pb-2">Data</h3>
+              {/* <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p> */}
+              <h4 className="py-4 text-teal-600">Analytics & Business Intelligence</h4>
+              <h4 className="py-4 text-teal-600">Data-Driven Decision Making</h4>
+              <h4 className="py-4 text-teal-600">Machine Learning & AI</h4>
+              <h4 className="py-4 text-teal-600">Data Governance</h4>
+            </div>
+            <div className="lg:flex items-center justify-center gap-10">
+              <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+              <Image alt="image" src={design} />
+              <h3 className="text-lg font-medium pt-8 pb-2">Software</h3>
+              {/* <p className="py-2">Unlock the potential of your online presence with my visually stunning and user-friendly designs, tailored to elevate your website&rsquo;s impact and engage your audience effortlessly.</p> */}
+              <h4 className="py-4 text-teal-600">Software Architecture</h4>
+              <h4 className="py-4 text-teal-600">Scalable Systems Design</h4>
+              <h4 className="py-4 text-teal-600">Full-Stack Development</h4>
+              <h4 className="py-4 text-teal-600">Quality Assurance</h4>  
             </div>
           </div>
         </section>
