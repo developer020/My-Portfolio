@@ -90,7 +90,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Stakeholder Management</h4>
               <h4 className="py-4 text-teal-600">Revenue Growth</h4>
               <h4 className="py-4 text-teal-600">Cross-Functional Alignment</h4>
-            </div>
+              </div>
               <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={code} />
               <h3 className="text-lg font-medium pt-8 pb-2">Data</h3>
@@ -99,7 +99,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Data-Driven Decision Making</h4>
               <h4 className="py-4 text-teal-600">Machine Learning & AI</h4>
               <h4 className="py-4 text-teal-600">Data Governance</h4>
-            </div>
+              </div>
               <div className="lg:flex items-center justify-center gap-10">
               <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image alt="image" src={design} />
@@ -109,7 +109,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Scalable Systems Design</h4>
               <h4 className="py-4 text-teal-600">Full-Stack Development</h4>
               <h4 className="py-4 text-teal-600">Quality Assurance</h4>  
-            </div>
+              </div>
           </div>
         </section>
         
