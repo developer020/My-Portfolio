@@ -28,6 +28,20 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(true); // ✅ start in dark mode
   const [loading, setLoading] = useState(true); // ✅ loading state
 
+  useEffect(() => {
+    // simulate loading for 2 seconds
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-screen bg-gray-900">
+        <div className="w-24 h-24 rounded-full border-8 border-t-teal-500 border-gray-700 animate-spin"></div>
+      </div>
+    );
+  }
+
   return (
     <div className={darkMode ? "dark" : ""}>
            <Head>
