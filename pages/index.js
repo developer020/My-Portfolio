@@ -96,9 +96,9 @@ export default function Home() {
             <Image alt="image" src={code} />
               <h3 className="text-lg font-medium pt-8 pb-2">Data</h3>
               {/* <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p> */}
-              <h4 className="py-4 text-teal-600">Analytics & Business Intelligence</h4>
-              <h4 className="py-4 text-teal-600">Data-Driven Decision Making</h4>
               <h4 className="py-4 text-teal-600">Machine Learning & AI</h4>
+              <h4 className="py-4 text-teal-600">Data-Driven Decision Making</h4>
+              <h4 className="py-4 text-teal-600">Analytics & Business Intelligence</h4>
               <h4 className="py-4 text-teal-600">Data Governance</h4>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
@@ -117,7 +117,7 @@ export default function Home() {
         <section className="py-10">
           <div>
             <div>
-              <h3 className="text-4xl py-1 text-teal-600 font-medium md:text-4xl dark:teal-400">RESUME</h3>
+              <h3 className="text-4xl py-1 text-teal-600 font-medium md:text-4xl dark:teal-400">Career Brag Sheet</h3>
               <p className="text-md py-2 leading-8text-gray-800 dark:text-gray-200">
                 In case you missed it at the top of the page, here&rsquo;s my resume!
               </p>
