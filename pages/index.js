@@ -67,7 +67,7 @@ export default function Home() {
     </nav>
 
           <div className="text-center p-10">
-            <h3 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:teal-400">Hi!</h2>
+            <h3 className="text-5xl text-teal-600 font-medium md:text-6xl dark:teal-400">Hi!</h2>
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:teal-400">I&rsquo;m Zamzam Ali</h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Product Leader</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">I don’t just build products: I architect revolutions. From zero to one, from one to millions, I turn raw ideas into market-shifting realities. The future doesn’t build itself.</p>
