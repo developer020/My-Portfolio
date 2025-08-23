@@ -3,7 +3,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaGithubAlt } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from 'next/image';
 import main from '../public/main-image.jpg';
 import code from '../public/code.png';
