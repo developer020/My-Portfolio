@@ -25,7 +25,8 @@ import web6 from '../public/web6.png';
 
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(true); // ✅ start in dark mode
+  const [loading, setLoading] = useState(true); // ✅ loading state
 
   return (
     <div className={darkMode ? "dark" : ""}>
