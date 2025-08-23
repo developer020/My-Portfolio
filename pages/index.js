@@ -80,7 +80,7 @@ export default function Home() {
             <a href="https://github.com/developer020">
               <FaGithubAlt />
             </a>
-            <a href="mailto:zeemohamudali@gmail.com">
+            <a href="mailto:zamzam.ali.fr@outlook.com">
               <HiMail />
             </a>
           </div>
