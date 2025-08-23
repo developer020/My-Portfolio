@@ -90,7 +90,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Strategic Planning</h4>
               <h4 className="py-4 text-teal-600">Stakeholder Management</h4>
               <h4 className="py-4 text-teal-600">Revenue Growth</h4>
-              <h4 className="py-4 text-teal-600">Cross-Functional Alignment</h4>
+              <h4 className="py-4 text-teal-600">Ruthless Prioritization</h4>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
             <Image alt="image" src={code} />
@@ -98,7 +98,7 @@ export default function Home() {
               {/* <p className="py-2">I orchestrate an ensemble of precision instruments, carefully chosen to maintain unwavering organization, foster seamless collaboration within teams, and meticulously record every pulse of code that breathes life into your digital masterpiece.</p> */}
               <h4 className="py-4 text-teal-600">Machine Learning & AI</h4>
               <h4 className="py-4 text-teal-600">Data-Driven Decision Making</h4>
-              <h4 className="py-4 text-teal-600">Analytics & Business Intelligence</h4>
+              <h4 className="py-4 text-teal-600">Analytics & Intelligence</h4>
               <h4 className="py-4 text-teal-600">Data Governance</h4>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
