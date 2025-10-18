@@ -74,7 +74,7 @@ export default function Home() {
             <p className="text-md pb-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-lg mx-auto">Welcome to my world!</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://www.linkedin.com/in/zamzam-ali/">
+            <a href="https://www.linkedin.com/in/zamzam-ali/" rel="me">
               <AiFillLinkedin />
             </a>
             <a href="https://github.com/developer020">
